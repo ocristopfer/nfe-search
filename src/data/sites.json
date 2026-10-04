@@ -1,0 +1,31 @@
+[
+  {
+    "ibge": "3505708",
+    "url": "https://www.barueri.sp.gov.br/nfe/",
+    "observacao": "A consulta de autenticidade fica dentro do portal NF-e de Barueri.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3304557",
+    "url": "https://notacarioca.rio.gov.br/documentos/verificacao.aspx",
+    "provedor": "Nota Carioca",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3301702",
+    "url": "https://www.issnetonline.com.br/duquedecaxias/online/NotaDigital/VerificaAutenticidade.aspx",
+    "provedor": "ISSNet",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3302858",
+    "url": "https://nfe.mesquita.rj.gov.br/nfe/form.jsp?sys=NFE&action=openform&formID=8331",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3301009",
+    "url": "https://goytacazes.ginfes.com.br/",
+    "provedor": "Ginfes",
+    "verificadoEm": "2026-10-04"
+  }
+]
