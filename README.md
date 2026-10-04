@@ -42,7 +42,21 @@ Para adicionar uma cidade, inclua uma entrada em `src/data/sites.json`:
 }
 ```
 
-Os testes conferem se o código IBGE existe, se a URL é `https` e se não há duplicatas.
+Os testes conferem se o código IBGE existe, se a URL é válida e se não há duplicatas.
+
+### Cobertura (outubro/2026)
+
+3.773 dos 5.570 municípios têm link cadastrado, em todas as 27 UFs. Destes, cerca de 2.100 já usam o
+Padrão Nacional e apontam para a consulta pública nacional. Fontes:
+
+- capitais e cidades grandes: pesquisa individual nos sites das prefeituras;
+- demais municípios: provedor de cada cidade segundo o cadastro do
+  [ACBr](https://projetoacbr.com.br/) (`ACBrNFSeXServicos.ini`), com a URL de verificação de cada
+  provedor testada município a município.
+
+Faltam principalmente municípios de provedores sem página pública de verificação conhecida
+(MegaSoft, Tinus e outros menores). Rode `npm run check:links` (ou `-- --uf=SP`) para achar links
+quebrados.
 
 ## Observação sobre o Vite
 

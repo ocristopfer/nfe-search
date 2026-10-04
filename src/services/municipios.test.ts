@@ -20,12 +20,24 @@ describe('dados', () => {
     expect(new Set(sites.map((s) => s.ibge)).size).toBe(sites.length)
   })
 
-  it.each(sites.map((s) => [s.ibge, s] as const))('site %s é válido', (_, site) => {
-    expect(municipios.some((m) => m.ibge === site.ibge)).toBe(true)
+  it('todos os sites são válidos', () => {
+    const ibges = new Set(municipios.map((m) => m.ibge))
     // alguns portais municipais ainda só respondem em http
-    expect(new URL(site.url).protocol).toMatch(/^https?:$/)
-    if (site.urlAnterior) expect(new URL(site.urlAnterior).protocol).toMatch(/^https?:$/)
-    expect(site.verificadoEm).toMatch(/^\d{4}-\d{2}-\d{2}$/)
+    const urlValida = (url: string) => {
+      try {
+        return /^https?:$/.test(new URL(url).protocol)
+      } catch {
+        return false
+      }
+    }
+    const invalidos = sites.filter(
+      (s) =>
+        !ibges.has(s.ibge) ||
+        !urlValida(s.url) ||
+        (s.urlAnterior !== undefined && !urlValida(s.urlAnterior)) ||
+        !/^\d{4}-\d{2}-\d{2}$/.test(s.verificadoEm),
+    )
+    expect(invalidos).toEqual([])
   })
 
   it('lista os municípios que têm site', () => {

@@ -12,8 +12,10 @@ import { PORTAL_NACIONAL_URL } from '@/services/municipios'
         busca demorada. O <strong>NFS-e Brasil</strong> reúne esses links em um só lugar.
       </p>
       <p class="mb-4">
-        A lista de municípios vem do IBGE. Os links das prefeituras são cadastrados manualmente e
-        conferidos periodicamente. Quando um município ainda não tem link, indicamos a
+        A lista de municípios vem do IBGE. Os links das prefeituras foram levantados nos sites das
+        próprias prefeituras e, para as cidades menores, a partir do provedor de cada município
+        segundo o cadastro do projeto <a href="https://projetoacbr.com.br/" target="_blank" rel="noopener">ACBr</a>,
+        e são conferidos periodicamente. Quando um município ainda não tem link, indicamos a
         <a :href="PORTAL_NACIONAL_URL" target="_blank" rel="noopener noreferrer">
           consulta pública do Portal Nacional da NFS-e</a>, que concentra as notas emitidas no padrão nacional.
       </p>
