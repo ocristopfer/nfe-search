@@ -19,9 +19,13 @@ npm run dev          # servidor de desenvolvimento
 npm test             # testes (dados + componentes)
 npm run typecheck    # checagem de tipos (vue-tsc)
 npm run build        # gera a pasta build/
-npm start            # serve a pasta build/ (usado no deploy)
+npm start            # serve a pasta build/
 npm run check:links  # confere se os links cadastrados ainda respondem
 ```
+
+## Deploy
+
+Cada push na `master` roda os testes e publica no GitHub Pages (`.github/workflows/deploy.yml`).
 
 ## Dados
 
