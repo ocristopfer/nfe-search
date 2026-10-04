@@ -4,6 +4,8 @@ import vue from '@vitejs/plugin-vue'
 import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 
 export default defineConfig({
+  // no GitHub Pages o site fica em /<repositório>/ (definido pelo workflow de deploy)
+  base: process.env.BASE_PATH ?? '/',
   plugins: [vue({ template: { transformAssetUrls } }), vuetify({ autoImport: true })],
   resolve: {
     alias: {

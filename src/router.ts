@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import SearchPage from '@/pages/SearchPage.vue'
 
 export default createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     { path: '/', name: 'search', component: SearchPage },
     { path: '/sobre', name: 'about', component: () => import('@/pages/AboutPage.vue') },
