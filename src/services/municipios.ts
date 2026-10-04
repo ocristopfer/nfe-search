@@ -54,3 +54,24 @@ export function filtrarMunicipios(termo: string, uf?: string | null): Municipio[
 }
 
 export const municipiosComSite: readonly Municipio[] = municipios.filter((m) => sitesPorIbge.has(m.ibge))
+
+const IBGE_CAPITAIS = [
+  '1200401', '2704302', '1600303', '1302603', '2927408', '2304400', '5300108', '3205309', '5208707',
+  '2111300', '5103403', '5002704', '3106200', '1501402', '2507507', '4106902', '2611606', '2211001',
+  '3304557', '2408102', '4314902', '1100205', '1400100', '4205407', '3550308', '2800308', '1721000',
+]
+
+export const capitais: readonly Municipio[] = municipios
+  .filter((m) => IBGE_CAPITAIS.includes(m.ibge))
+  .sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR'))
+
+export const cobertura = (() => {
+  const padraoNacional = sites.filter((s) => s.url === PORTAL_NACIONAL_URL).length
+  const siteProprio = sites.length - padraoNacional
+  return {
+    total: municipios.length,
+    siteProprio,
+    padraoNacional,
+    semCadastro: municipios.length - sites.length,
+  }
+})()

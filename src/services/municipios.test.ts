@@ -1,6 +1,8 @@
 import { describe, expect, it } from 'vitest'
 import {
   buscarSite,
+  capitais,
+  cobertura,
   filtrarMunicipios,
   municipios,
   municipiosComSite,
@@ -38,6 +40,11 @@ describe('dados', () => {
         !/^\d{4}-\d{2}-\d{2}$/.test(s.verificadoEm),
     )
     expect(invalidos).toEqual([])
+  })
+
+  it('tem as 27 capitais e a cobertura soma o total', () => {
+    expect(capitais).toHaveLength(27)
+    expect(cobertura.siteProprio + cobertura.padraoNacional + cobertura.semCadastro).toBe(municipios.length)
   })
 
   it('lista os municípios que têm site', () => {

@@ -39,7 +39,7 @@ describe('MunicipioResultado', () => {
 
   it('indica o Portal Nacional quando não há link', () => {
     const wrapper = montar({ ibge: '0000000', nome: 'Município sem link', uf: 'XX' })
-    expect(wrapper.text()).toContain('Ainda não temos')
+    expect(wrapper.text()).toContain('Ainda sem link cadastrado')
     expect(wrapper.findAll('a').map((a) => a.attributes('href'))).toContain(PORTAL_NACIONAL_URL)
   })
 })
