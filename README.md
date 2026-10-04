@@ -21,7 +21,7 @@ npm run dev          # servidor de desenvolvimento
 npm test             # testes (dados + componentes)
 npm run typecheck    # checagem de tipos (vue-tsc)
 npm run build        # gera a pasta build/
-npm start            # serve a pasta build/
+npm run preview      # serve a pasta build/ localmente
 npm run check:links  # confere se os links cadastrados ainda respondem
 ```
 

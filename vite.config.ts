@@ -13,7 +13,7 @@ export default defineConfig({
     },
   },
   build: {
-    // mantém a pasta usada pelo `serve -s build` (deploy no Heroku)
+    // pasta publicada pelo workflow do GitHub Pages
     outDir: 'build',
     // os chunks de dados (municípios e sites) são JSON grande, mas comprimem para ~60 KB com gzip
     chunkSizeWarningLimit: 700,
