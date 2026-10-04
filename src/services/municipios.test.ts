@@ -22,7 +22,9 @@ describe('dados', () => {
 
   it.each(sites.map((s) => [s.ibge, s] as const))('site %s é válido', (_, site) => {
     expect(municipios.some((m) => m.ibge === site.ibge)).toBe(true)
-    expect(new URL(site.url).protocol).toBe('https:')
+    // alguns portais municipais ainda só respondem em http
+    expect(new URL(site.url).protocol).toMatch(/^https?:$/)
+    if (site.urlAnterior) expect(new URL(site.urlAnterior).protocol).toMatch(/^https?:$/)
     expect(site.verificadoEm).toMatch(/^\d{4}-\d{2}-\d{2}$/)
   })
 

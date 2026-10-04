@@ -1,14 +1,562 @@
 [
   {
-    "ibge": "3505708",
-    "url": "https://www.barueri.sp.gov.br/nfe/",
-    "observacao": "A consulta de autenticidade fica dentro do portal NF-e de Barueri.",
+    "ibge": "1200401",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "Aderiu ao Emissor Nacional em 01/01/2026 e desabilitou o sistema próprio para emissão. O portal antigo (nfse.riobranco.ac.gov.br) ainda está no ar.",
     "verificadoEm": "2026-10-04"
   },
   {
-    "ibge": "3304557",
-    "url": "https://notacarioca.rio.gov.br/documentos/verificacao.aspx",
-    "provedor": "Nota Carioca",
+    "ibge": "2700300",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "Desde jan/2026, uso exclusivo do emissor nacional.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "2704302",
+    "url": "https://maceio.giss.com.br/portal/home#/verificacao-autenticidade-nfse",
+    "provedor": "GISS Online",
+    "observacao": "Rota de autenticidade do portal GISS (SPA).",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "1302603",
+    "url": "https://nfse.manaus.am.gov.br/ma0101/verificacao.aspx",
+    "provedor": "Sistema próprio",
+    "observacao": "Página 'Verificação de Autenticidade da NFS-e' (CNPJ do prestador, número e código de verificação). Fontes secundárias citam adesão ao Emissor Nacional em 2026; o portal próprio continua no ar.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "1600303",
+    "url": "https://www.notaeletronica.com.br/macapa/NotaDigital/VerificaAutenticidade.aspx",
+    "provedor": "ISSNet",
+    "observacao": "O 403 vem do desafio antibot da Cloudflare (comum a todo o ISSNet). Página indexada como 'ISSNet On-Line - Nota Eletrônica'.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "2905701",
+    "url": "http://sefazweb.camacari.ba.gov.br/nfse/consultarAutenticidadeNFSe.tela",
+    "provedor": "Sistema próprio",
+    "observacao": "Prefeitura mantém emissão no STM (comunicado jul/2026), integrado ao ADN nacional. Só HTTP.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "2910800",
+    "url": "https://feiradesantanaba.webiss.com.br/externo/nfse/validar",
+    "provedor": "WebISS",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "2913606",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "Guia da Focus NFe para Ilhéus remete ao Ambiente Nacional; site da prefeitura bloqueia acesso (403), confirmação oficial pendente.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "2914802",
+    "url": "https://itabunaba.webiss.com.br/externo/nfse/validar",
+    "provedor": "WebISS",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "2918407",
+    "url": "https://juazeiroba.webiss.com.br/externo/nfse/validar",
+    "provedor": "WebISS",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "2919207",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "Portaria SEFAZ 11/2026: emissão municipal vedada a partir de ago/set 2026; tudo no Emissor Nacional.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "2927408",
+    "url": "https://nfse.salvador.ba.gov.br/site/publico/verificacao.aspx",
+    "provedor": "Nota Salvador",
+    "observacao": "Verificação por CPF/CNPJ do prestador, número e código de verificação. Notas emitidas no Emissor Nacional: nfse.gov.br/consultapublica.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "2933307",
+    "url": "https://ba-vitoriadaconquista-pm-nfs.cloud.el.com.br/autenticacao",
+    "provedor": "E&L",
+    "observacao": "Trocou WebISS por E&L em jan/2022. Página é SPA; rota /autenticacao existe no app. Simples Nacional migra p/ Emissor Nacional em nov/2026.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "2303709",
+    "url": "https://issqn.sefin.caucaia.ce.gov.br/publico/nfse/validacao",
+    "provedor": "Sistema próprio",
+    "observacao": "Rota pública de validação do SPA do ISSQN de Caucaia.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "2304400",
+    "url": "https://iss.fortaleza.ce.gov.br/grpfor/pagesPublic/validarNota.seam",
+    "provedor": "Sistema próprio",
+    "observacao": "Número da NFS-e, código de verificação e CPF/CNPJ do prestador.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "2307304",
+    "url": "https://servicos2.speedgov.com.br/juazeirodonorte/validacao/nota_fiscal",
+    "provedor": "SpeedGov",
+    "observacao": "Inscrição municipal, número da nota e código de validação.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "2307650",
+    "url": "https://servicos2.speedgov.com.br/maracanau/validacao/nota_fiscal",
+    "provedor": "SpeedGov",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "2312908",
+    "url": "https://servicos2.speedgov.com.br/sobral/validacao/nota_fiscal",
+    "provedor": "SpeedGov",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "5300108",
+    "url": "https://iss.fazenda.df.gov.br/online/NotaDigital/VerificaAutenticidade.aspx",
+    "provedor": "ISSNet",
+    "observacao": "Verificação das NFS-e emitidas no sistema do DF. Fontes indicam emissão no Padrão Nacional obrigatória no DF a partir de 2026; para essas notas use www.nfse.gov.br/consultapublica.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3201209",
+    "url": "https://notafse.cachoeiro.es.gov.br/#/autenticacao",
+    "provedor": "E&L",
+    "observacao": "Rota #/autenticacao da SPA da E&L (informar chave de validação).",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3201308",
+    "url": "https://sistemas.cariacica.es.gov.br/tbw/loginWeb.jsp?execobj=NFSENotaFiscalBuscarDireto",
+    "provedor": "SMARapd / SIL",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3205002",
+    "url": "https://tributacao.serra.es.gov.br:8080/tbserra/loginWeb.jsp?execobj=NFSENotaFiscalBuscarDireto",
+    "provedor": "SMARapd / SIL",
+    "observacao": "Emissão pelo Ambiente Nacional desde 01/01/2026; consulta antiga segue ativa.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3205200",
+    "url": "https://tributacao.vilavelha.es.gov.br/tbw/loginWeb.jsp?execobj=NFSENotaFiscalBuscarDireto",
+    "provedor": "SMARapd / SIL",
+    "observacao": "Município aderiu ao Padrão Nacional.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3205309",
+    "url": "https://nfse.vitoria.es.gov.br/aberto/autenticacao.cfm",
+    "provedor": "Sistema próprio",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "5200258",
+    "url": "https://aguaslindas.ginfes.com.br/",
+    "provedor": "Ginfes",
+    "observacao": "Portal GINFES indicado pela prefeitura; a verificação fica no menu do portal. Não há URL direta.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "5201108",
+    "url": "https://www.issnetonline.com.br/anapolis/online/NotaDigital/VerificaAutenticidade.aspx",
+    "provedor": "ISSNet",
+    "observacao": "A página de serviço da prefeitura aponta para o ISSNet Anápolis. O 403 é da Cloudflare.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "5201405",
+    "url": "https://www.issnetonline.com.br/aparecida/online/NotaDigital/VerificaAutenticidade.aspx",
+    "provedor": "ISSNet",
+    "observacao": "O site da prefeitura aponta para issnetonline.com.br/aparecida. O 403 é da Cloudflare.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "5208707",
+    "url": "https://www.issnetonline.com.br/goiania/online/NotaDigital/VerificaAutenticidade.aspx",
+    "provedor": "GISS Online",
+    "observacao": "Desde 2025/2026 o emissor próprio é o 'Sistema ISS Goiânia' (ISSNet), que compartilha os dados com o ADN. O 403 é da Cloudflare. Notas antigas: www2.goiania.go.gov.br/sistemas/snfse/asp/snfse00210f0.asp.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "5218805",
+    "url": "https://servicos.rioverde.go.gov.br/notafiscal/verificar",
+    "provedor": "Sistema próprio",
+    "observacao": "Consulta pública de NFS-e e NFSA por CPF/CNPJ, número e código de verificação.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "2105302",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "Link 'NFS-e' do site da prefeitura leva ao Emissor Nacional; Focus NFe também indica Ambiente Nacional.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "2111300",
+    "url": "https://stm.semfaz.saoluis.ma.gov.br/credenciamento/jsp/validacaonota/index.jsf",
+    "provedor": "Sistema próprio",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "2112209",
+    "url": "https://servicos2.speedgov.com.br/timon/validacao/nota_fiscal",
+    "provedor": "SpeedGov",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3106200",
+    "url": "https://bhissdigital.pbh.gov.br/nfse/pages/consultaNFS-e_cidadao.jsf",
+    "provedor": "BHISS Digital",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3106705",
+    "url": "https://betim.giss.com.br/consultar-autenticidade-documento-fiscal",
+    "provedor": "GISS Online",
+    "observacao": "Página de autenticidade do GISS Online (SPA; redireciona para /portal/home#/verificacao-autenticidade-nfse). Emissão pelo Emissor Nacional desde 2026; antes Ginfes.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3118601",
+    "url": "https://nfse-contagem.cidade360.cloud/NFSe.Portal/ConsultaPublicaNFSe",
+    "provedor": "Cidade360",
+    "observacao": "Nova plataforma aderente ao Padrão Nacional.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3122306",
+    "url": "https://divisopolis.sintesenotafiscal.com.br/NFSEWeb/verificarAutenticacao.xhtml",
+    "provedor": "Síntese",
+    "observacao": "Subdomínio grafado 'divisopolis'. Emissão atual pelo Emissor Nacional; o portal antigo serve para notas anteriores.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3127701",
+    "url": "https://mg-governadorvaladares-pm-nfs.cloud.el.com.br/paginas/sistema/autenticacao.jsf",
+    "provedor": "E&L",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3131307",
+    "url": "https://ipatinga.meumunicipio.online/ISS/consulta/consulta.php",
+    "provedor": "SIGISS",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3136702",
+    "url": "https://nfse.pjf.mg.gov.br/VerificarAutenticidade",
+    "provedor": "Gestão ISS",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3143302",
+    "url": "https://nota.montesclaros.mg.gov.br/NFSe.Portal/ConsultaPublicaNFSe",
+    "provedor": "Cidade360",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3154606",
+    "url": "https://iss.ribeiraodasneves.mg.gov.br/VerificarAutenticidade",
+    "provedor": "Gestão ISS",
+    "observacao": "Emissão pelo Emissor Nacional desde 01/01/2026; consulta antiga segue ativa.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3157807",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "Emissor próprio encerrado em 01/01/2026; a prefeitura indica a consulta pública nacional.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3167202",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "O antigo nfse.setelagoas.mg.gov.br (?view=autenticidade) agora redireciona para o login do Auditor Digital; município no ambiente nacional.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3170107",
+    "url": "https://nfe.uba.mg.gov.br/site/tomadores.php?txtMenu=autenticidade",
+    "provedor": "Versa Tecnologia",
+    "observacao": "Aceita código municipal ou chave do Sistema Nacional. Existe portal WebISS legado (uberabamg.webiss.com.br/externo/nfse/validar).",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3170206",
+    "url": "https://udigital.uberlandia.mg.gov.br/nfse/verificarAutenticidade.php",
+    "provedor": "ISS Digital (DSF)",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "5002704",
+    "url": "https://nfse.campogrande.ms.gov.br/notafiscal/paginas/portal/index.html#/autenticidade",
+    "provedor": "Sistema próprio",
+    "observacao": "O antigo nfse.pmcg.ms.gov.br (ISS Digital) agora redireciona para um aviso de atualização que aponta para nfse.campogrande.ms.gov.br. A rota #/autenticidade existe no app.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "5003702",
+    "url": "https://e-gov.betha.com.br/e-nota/verificar_autenticidade.faces",
+    "provedor": "Betha e-Nota",
+    "observacao": "A página de NFS-e da prefeitura aponta para o Betha e-Nota. Formulário 'Autenticidade da nota': CPF/CNPJ do prestador, número e código de verificação. Antes era ISSNet.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "5103403",
+    "url": "https://cuiaba.notaeletronica.com.br/free/cuiaba/NotaDigital/VerificaAutenticidade.aspx",
+    "provedor": "ISSNet",
+    "observacao": "Emissor Nacional obrigatório a partir de 01/11/2026; depois disso o sistema municipal não recebe novas emissões. O 403 é da Cloudflare. URL alternativa: onlinecba.issnetonline.com.br/cuiaba/NotaDigital/VerificaAutenticidade.aspx.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "5107602",
+    "url": "https://blue.rondonopolis.mt.gov.br/portal/rondonopolis/#/autenticidade",
+    "provedor": "ÁGILI",
+    "observacao": "Link 'Autenticidade NFS-e e Outros' no portal de NFS-e da prefeitura.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "5107909",
+    "url": "https://www.gp.srv.br/tributario/sinop/portal_autenticacao?1",
+    "provedor": "Coplan",
+    "observacao": "Sinop mantém o sistema próprio Coplan. É uma página genérica de 'Consulta de Autenticidade' do portal do contribuinte (inclui NFS-e); a validação direta usa portal_validacao_nfse?<id>, link impresso na nota.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "5108402",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "Decreto nº 03/2026 (20/01/2026): emissão exclusiva pelo Emissor Público Nacional. Fonte secundária que cita a prefeitura. Notas antigas: www.e-nfs.com.br/varzeagrande.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "1500800",
+    "url": "https://ananindeua.ginfes.com.br/",
+    "provedor": "Ginfes",
+    "observacao": "Portal GINFES do município; a verificação fica na opção 'Autenticação-Notas' (número da NFS-e + código de verificação). Não há URL direta.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "1501402",
+    "url": "https://notafiscal.belem.pa.gov.br/notafiscal/paginas/portal/index.html#/autenticidade",
+    "provedor": "Sistema próprio",
+    "observacao": "A página de finanças da prefeitura aponta para a 'NOVA Nota Fiscal de Serviços Eletrônica' (notafiscal.belem.pa.gov.br) e para o Emissor Nacional. A rota #/autenticidade existe no app.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "1502400",
+    "url": "https://sefin.castanhal.pa.gov.br/nfse/paginas/publico/verificar_autenticidade.xhtml",
+    "provedor": "Sistema próprio",
+    "observacao": "Aviso no portal: a NFS-e está sendo integrada ao novo portal e-CIS (sefin.castanhal.pa.gov.br/e-cis), que também tem uma página de verificação de autenticidade.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "1504208",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "Marabá aderiu cedo ao Emissor Nacional (nfe.io: Amb. Nacional = Sim, Emissor Nacional = Sim). A notícia da prefeitura retorna 404; evidência secundária.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "1505536",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "Desde 22/12/2025 as NFS-e são emitidas exclusivamente pelo Emissor Nacional.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "1506807",
+    "url": "https://santarem.ginfes.com.br/",
+    "provedor": "Ginfes",
+    "observacao": "Portal GINFES do município (app GWT); a verificação de autenticidade é feita pelo menu do portal. Fonte secundária; o site da prefeitura não traz link.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "2504009",
+    "url": "https://campinagrandepb.webiss.com.br/externo/nfse/validar",
+    "provedor": "WebISS",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "2507507",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "Notas de João Pessoa já saem como DANFSe nacional (2025); verificação por chave de acesso/QR Code.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "2602902",
+    "url": "https://www.tinus.com.br/csp/cabo/portal/wsinevlne.csp",
+    "provedor": "Tinus",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "2604106",
+    "url": "http://caruaru.tributosmunicipais.com.br/gestor/views/publico/prefWeb/modulos/validarNota/consulta/validarNota.xhtml",
+    "provedor": "Tributos Municipais",
+    "observacao": "Verificação por número e chave. Só HTTP (HTTPS falha).",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "2607901",
+    "url": "https://www.tinus.com.br/csp/JABOATAO/portal/wsinevlne.csp",
+    "provedor": "Tinus",
+    "observacao": "Nota Guararapes. Link 'Autenticação da NFS-e' do Portal do Contribuinte. Portal também tem seção NFS-e Nacional.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "2609600",
+    "url": "https://www.tinus.com.br/csp/OLINDA/portal/wsinevlne.csp",
+    "provedor": "Tinus",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "2610707",
+    "url": "https://paulista.giss.com.br/portal/home#/verificacao-autenticidade-nfse",
+    "provedor": "GISS Online",
+    "observacao": "Rota 'Autenticidade de Notas Fiscais' do portal GISS (SPA).",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "2611101",
+    "url": "https://pe-petrolina-pm-nfs.cloud.el.com.br/autenticacao",
+    "provedor": "E&L",
+    "observacao": "Página é SPA; rota /autenticacao. NFS-e de Petrolina impressa aponta para pe-petrolina-pm-nfs.cloud.el.com.br.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "2611606",
+    "url": "https://nfse.recife.pe.gov.br/documentos/verificacao.aspx",
+    "provedor": "Sistema próprio",
+    "observacao": "Para notas antigas (até 2025). Notas de 2026 em diante: Emissor Nacional (nfse.gov.br/consultapublica).",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "2211001",
+    "url": "https://notafiscal.teresina.pi.gov.br/notafiscal/paginas/portal/index.html#/autenticidade",
+    "provedor": "ISS Digital (DSF)",
+    "observacao": "Rota 'Autenticidade' do portal NFS-e (SPA). Layout nacional, emissor próprio.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "4101804",
+    "url": "https://araucaria.atende.net/autoatendimento/servicos/consulta-de-autenticidade-de-nota-fiscal-eletronica-nfs-e",
+    "provedor": "IPM Atende.net",
+    "observacao": "Página renderizada via JavaScript",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "4104808",
+    "url": "https://prefa.cascavel.pr.gov.br/autoatendimento/servicos/consulta-de-autenticidade-de-nota-fiscal-eletronica-nfse",
+    "provedor": "IPM Atende.net",
+    "observacao": "Mantém emissor próprio (IPM) integrado ao ambiente nacional. Página renderizada via JavaScript",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "4105805",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "Sistema IPM desativado para emissão em 31/12/2025; desde 01/01/2026 emissão exclusiva na NFS-e Nacional",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "4106902",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "Aderiu integralmente ao Emissor Nacional; validação de NFS-e só no ambiente nacional. Validador legado (notas antigas): https://notacuritibana.curitiba.pr.gov.br/NotaRPS/AutenticidadeNota",
+    "urlAnterior": "https://notacuritibana.curitiba.pr.gov.br/NotaRPS/AutenticidadeNota",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "4108304",
+    "url": "https://fozdoiguacupr.gestaoiss.com.br/externo/nfse/validar",
+    "provedor": "Gestão ISS",
+    "observacao": "O endereço antigo nfse.pmfi.pr.gov.br redireciona para o portal Gestão ISS. Também há validação por QR Code em /externo/nfse/validar-mobile",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "4109401",
+    "url": "https://guarapuava.atende.net/autoatendimento/servicos/consulta-de-autenticidade-de-nota-fiscal-eletronica-nfs-e",
+    "provedor": "IPM Atende.net",
+    "observacao": "Página renderizada via JavaScript; Emissor Nacional não habilitado no município",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "4113700",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "Emissão obrigatória no Ambiente Nacional desde 01/01/2026. Notas antigas: 'Consulta Autenticidade' em http://iss.londrina.pr.gov.br",
+    "urlAnterior": "http://iss.londrina.pr.gov.br",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "4115200",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "Emissor Nacional exclusivo desde 01/07/2026; sistema municipal (Fintel) ficou só para consultas: https://maringa.fintel.com.br/VerificarAutenticidade",
+    "urlAnterior": "https://maringa.fintel.com.br/VerificarAutenticidade",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "4118204",
+    "url": "https://paranagua.atende.net/autoatendimento/",
+    "provedor": "IPM Atende.net",
+    "observacao": "Portal de autoatendimento; o serviço 'Consulta de Autenticidade de Nota Fiscal Eletrônica (NFS-e)' fica dentro dele, mas a URL direta não foi confirmada (página só renderiza via JS). Município mantém emissor próprio",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "4119905",
+    "url": "https://pontagrossa.oxy.elotech.com.br/iss/autenticar-documento-fiscal",
+    "provedor": "Elotech",
+    "observacao": "Aderiu ao ambiente nacional, mas mantém o emissor municipal (Elotech) com layout nacional",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "4125506",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "NFS-e nacional obrigatória desde 01/01/2026; o ISSonline deixou de emitir. Notas antigas: https://nfe.sjp.pr.gov.br/servicos/webnfse/",
+    "urlAnterior": "https://nfe.sjp.pr.gov.br/servicos/webnfse/",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "4127700",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "Emissão exclusiva no Sistema Nacional desde 01/09/2026 (Decreto 1.964/2026). O sistema municipal Equiplano (https://www.esnfs.com.br/?e=136) segue apenas para consultas e declarações",
+    "urlAnterior": "https://www.esnfs.com.br/?e=136",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3300456",
+    "url": "https://nfse.prefeituradebelfordroxo.rj.gov.br/nfe/form.jsp?sys=NFE&action=openform&formID=8331",
+    "provedor": "Sistema próprio",
+    "observacao": "Redireciona para /ver20240921/form.jsp.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3300704",
+    "url": "https://nfse.cabofrio.rj.gov.br/nfe/form.jsp?sys=NFE&action=openform&formID=8331",
+    "provedor": "Sistema próprio",
+    "observacao": "Link de consulta presente na home nfse.cabofrio.rj.gov.br.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3301009",
+    "url": "https://goytacazes.ginfes.com.br/",
+    "provedor": "Ginfes",
     "verificadoEm": "2026-10-04"
   },
   {
@@ -18,14 +566,602 @@
     "verificadoEm": "2026-10-04"
   },
   {
+    "ibge": "3301900",
+    "url": "https://prefeituradeitaborai.online/engine.php?m=pref_nfd_autenticidade",
+    "provedor": "Sistema próprio",
+    "observacao": "Item 'Autenticidade NFS-e' do portal. Município informa transição para a NFS-e Nacional.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3302403",
+    "url": "https://spe.macae.rj.gov.br/documentos/verificacao.aspx",
+    "provedor": "Sistema próprio",
+    "observacao": "Há também verificação de documentos em siarm.macae.rj.gov.br.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3302502",
+    "url": "https://nfs-e.mage.rj.gov.br/nfe/form.jsp?sys=NFE&action=openform&formID=8331",
+    "provedor": "Sistema próprio",
+    "observacao": "Redireciona para /ver20240921/form.jsp.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3302700",
+    "url": "https://nota.marica.rj.gov.br/auth/nfse/autenticar",
+    "provedor": "Sistema próprio",
+    "observacao": "Notas no padrão nacional também são recebidas pelo Nota Maricá.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
     "ibge": "3302858",
     "url": "https://nfe.mesquita.rj.gov.br/nfe/form.jsp?sys=NFE&action=openform&formID=8331",
     "verificadoEm": "2026-10-04"
   },
   {
-    "ibge": "3301009",
-    "url": "https://goytacazes.ginfes.com.br/",
+    "ibge": "3303302",
+    "url": "https://nfse.niteroi.rj.gov.br/documentos/verificacao.aspx",
+    "provedor": "Sistema próprio",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3303401",
+    "url": "https://rj-novafriburgo-pm-nfs.cloud.el.com.br/#/autenticacao",
+    "provedor": "E&L",
+    "observacao": "Rota #/autenticacao da SPA da E&L (informar chave de validação). Município em migração para a NFS-e Nacional.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3303500",
+    "url": "https://nfse.novaiguacu.rj.gov.br/nfse/action/notaFiscal/verificarAutenticidade.php",
+    "provedor": "ISS Digital (DSF)",
+    "observacao": "Também há o portal nfsenacional.novaiguacu.rj.gov.br para o Emissor Nacional.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3303906",
+    "url": "https://petropolis-rj.prefeituramoderna.com.br/meuiss_new/nfe/?pg=validarnfse",
+    "provedor": "Sistema próprio",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3304557",
+    "url": "https://notacarioca.rio.gov.br/documentos/verificacao.aspx",
+    "provedor": "Nota Carioca",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3304904",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "Emissão municipal desativada em 01/06/2026; o link de autenticação antigo (issintegra) não resolve DNS. O site da prefeitura aponta para a consulta nacional.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3305109",
+    "url": "https://saojoaodemeriti.sigiss.com.br/saojoaodemeriti/consulta/main.php",
+    "provedor": "SIGISS",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3306305",
+    "url": "https://voltaredonda.simplissweb.com.br/contrib/app/nfse/verifica_autenticidade",
+    "provedor": "Simpliss",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "2408003",
+    "url": "https://www.tinus.com.br/csp/mossoro/portal/wsinevlne.csp",
+    "provedor": "Tinus",
+    "observacao": "Mantém emissor próprio (convênio NFS-e Nacional).",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "2408102",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "Emissor Nacional desde 01/05/2026. Notas antigas (Nota Natalense) só pelo 'Acesso Público' do Portal Directa (directa.natal.rn.gov.br), sem URL direta.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "2403251",
+    "url": "https://www.tinus.com.br/csp/PARNAMIRIM/portal/wsinevlne.csp",
+    "provedor": "Tinus",
+    "observacao": "Mantém emissor próprio com layout nacional desde 2026.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "1100205",
+    "url": "https://nfse.portovelho.ro.gov.br/#/autenticacao",
+    "provedor": "E&L",
+    "observacao": "O site da prefeitura aponta para o novo portal nfse.portovelho.ro.gov.br; a rota pública #/autenticacao tem o formulário 'Autenticar Documento'. O portal antigo semfazonline.com/portal/nfse_autenticidade_input.action responde 403.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "1400100",
+    "url": "https://boavista.saatri.com.br/DocumentoFiscal/Consultar?Pbol_ConsultaPorReciboProvisorio=false",
+    "provedor": "Saatri",
+    "observacao": "Página 'Verificação de Autenticidade da Nota Fiscal de Serviços', com link no site da prefeitura.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "4304606",
+    "url": "https://nfse.canoas.rs.gov.br/portal",
+    "provedor": "INFISC",
+    "observacao": "Portal do ISS (página em JavaScript); não achei URL direta da verificação de autenticidade",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "4305108",
+    "url": "https://nfse.caxias.rs.gov.br/nfse/consultaExterna",
+    "provedor": "Sistema próprio",
+    "observacao": "Link 'Verificar Autenticidade de NFS-e' da página oficial; MEI emite no Emissor Nacional",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "4309209",
+    "url": "https://gravatai.atende.net/autoatendimento/servicos/consulta-de-autenticidade-de-nota-fiscal-eletronica-nfse",
+    "provedor": "IPM Atende.net",
+    "observacao": "Mantém emissor próprio (nfse-gravatai.atende.net). Página renderizada via JavaScript",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "4313409",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "Emissor Nacional como sistema único desde 01/09/2026. Sistema anterior: IPM (https://nfse-novohamburgo.atende.net)",
+    "urlAnterior": "https://nfse-novohamburgo.atende.net",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "4314100",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "Usa o Emissor Nacional desde 01/01/2026 (Decreto 134/2025). Notas antigas: https://grp.pmpf.rs.gov.br/grp/acessoexterno/programaAcessoExterno.faces?codigo=69994",
+    "urlAnterior": "https://grp.pmpf.rs.gov.br/grp/acessoexterno/programaAcessoExterno.faces?codigo=69994",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "4314407",
+    "url": "https://nfe.pelotas.rs.gov.br/",
+    "provedor": "Sistema próprio",
+    "observacao": "Portal 'Nota Eletrônica' linkado pela prefeitura (página em JavaScript); não achei URL direta de autenticidade",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "4314902",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "NFS-e só no padrão nacional desde 01/11/2025 (Nota Legal encerrado). Consulta legada: https://nfe-web.portoalegre.rs.gov.br/nfse/pages/consultaNFS-e_cidadao.jsf",
+    "urlAnterior": "https://nfe-web.portoalegre.rs.gov.br/nfse/pages/consultaNFS-e_cidadao.jsf",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "4315602",
+    "url": "https://riogrande.sigiss.com.br/riogrande/consulta_cnd/consulta/main.php",
+    "provedor": "SIGISS",
+    "observacao": "Link 'Autenticidade de Nota Fiscal Eletrônica' do portal SIGISS do município",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "4316907",
+    "url": "https://www.issnetonline.com.br/santamaria/online/NotaDigital/VerificaAutenticidade.aspx",
+    "provedor": "ISSNet",
+    "observacao": "Antibot intermitente: 403 em alguns testes e 200 com cabeçalhos de navegador",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "4318705",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "Site oficial (seção NFS-e Padrão Nacional) aponta 'Consulta Nota Nacional' para a consulta pública nacional. Não confirmei se o sistema municipal (GRP) foi desativado",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "4323002",
+    "url": "https://webapp1-viamao.cidade360.cloud/nfse.portal/",
+    "provedor": "Cidade360",
+    "observacao": "Portal NFS-e linkado pela prefeitura; a página inicial não traz link direto de autenticidade de NFS-e (só de protocolo de retenção)",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "4202008",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "Emissão só pelo Emissor Nacional desde 01/01/2026. Ambiente antigo (Publica), só para notas anteriores: https://nfse1.publica.inf.br/balneariocamboriu_nfse/jsp/nfs/nfp/externo/consulta.jsp",
+    "urlAnterior": "https://nfse1.publica.inf.br/balneariocamboriu_nfse/jsp/nfs/nfp/externo/consulta.jsp",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "4202404",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "Emissão exclusiva pelo Emissor Nacional desde 01/08/2026; NotaBlu legado: https://nfse.blumenau.sc.gov.br/",
+    "urlAnterior": "https://nfse.blumenau.sc.gov.br/",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "4202909",
+    "url": "https://www.brusque.sc.gov.br/autoatendimento/servicos/consulta-de-autenticidade-de-nota-fiscal-eletronica-nfse",
+    "provedor": "IPM Atende.net",
+    "observacao": "Página renderizada via JavaScript. Migração parcial: ME/EPP do Simples no Emissor Nacional desde 08/2025",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "4204202",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "Emissão exclusiva pelo Portal Nacional desde 01/06/2026; o ISS continua no Sigcorp municipal. Consulta legada (Publica) em nfse1.publica.inf.br/chapeco_nfse respondeu 503",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "4204608",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "Emissor Nacional como sistema oficial; emissão exclusiva desde 01/01/2026",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "4205407",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "Adotou o Emissor Nacional; modelo municipal extinto desde 01/12/2025. Consulta legada da NFPS-e: https://nfps-e.pmf.sc.gov.br/consulta-frontend/",
+    "urlAnterior": "https://nfps-e.pmf.sc.gov.br/consulta-frontend/",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "4208203",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "Emissão exclusiva via Emissor Nacional desde 01/07/2026. Notas antigas (Publica): https://nfse.itajai.sc.gov.br/jsp/nfs/nfp/externo/consulta.jsp",
+    "urlAnterior": "https://nfse.itajai.sc.gov.br/jsp/nfs/nfp/externo/consulta.jsp",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "4208906",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "Decreto 20.544/2026: migração para o Emissor Nacional, obrigatória desde 01/09/2026. Antes: Betha e-Nota (Fly/Cloud)",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "4209102",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "Emissão só pelo Portal Nacional desde 20/07/2026. Notas antigas (NF-em, Publica): https://nfem.joinville.sc.gov.br/jsp/nfs/nfp/externo/consulta.jsp",
+    "urlAnterior": "https://nfem.joinville.sc.gov.br/jsp/nfs/nfp/externo/consulta.jsp",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "4209300",
+    "url": "https://e-gov.betha.com.br/e-nota/verificar_autenticidade.faces",
+    "provedor": "Betha e-Nota",
+    "observacao": "Página da Betha, comum a todos os seus clientes: escolha o município Lages. Não confirmei se Lages já migrou para o Emissor Nacional",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "4211900",
+    "url": "https://palhoca.atende.net/autoatendimento/servicos/consulta-autenticidade-de-nfse",
+    "provedor": "IPM Atende.net",
+    "observacao": "Página renderizada via JavaScript. Notas antigas da Betha (Fly e-Nota): https://e-gov.betha.com.br/e-nota/verificar_autenticidade.faces",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "4216602",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "Decreto 13.075/2026: desde 01/09/2026 todos emitem pelo Portal Nacional. Antes: IPM (https://saojose.atende.net/autoatendimento/servicos/consulta-de-autenticidade-de-nota-fiscal-eletronica-nfse/detalhar/1). A página-fonte da prefeitura hoje retorna 404",
+    "urlAnterior": "https://saojose.atende.net/autoatendimento/servicos/consulta-de-autenticidade-de-nota-fiscal-eletronica-nfse/detalhar/1",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "2800308",
+    "url": "https://aracajuse.webiss.com.br/externo/nfse/validar",
+    "provedor": "WebISS",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "2804805",
+    "url": "https://nossasenhoradosocorrose.webiss.com.br/externo/nfse/validar",
+    "provedor": "WebISS",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3501608",
+    "url": "https://nfse.americana.sp.gov.br/mobile/Verificacao.aspx",
+    "provedor": "Sistema próprio",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3502804",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "Emissor Nacional exclusivo desde 01/01/2026, substituindo os modelos anteriores.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3503208",
+    "url": "https://araraquara.giap.com.br/ords/pma/f?p=559:70",
+    "provedor": "GIAP",
+    "observacao": "Página inicial com bloco 'Verificação de Autenticidade'.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3505708",
+    "url": "https://www.barueri.sp.gov.br/nfe/",
+    "observacao": "A consulta de autenticidade fica dentro do portal NF-e de Barueri.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3506003",
+    "url": "https://www2.bauru.sp.gov.br/sist_nfe/validar_nfe.aspx",
+    "provedor": "Sistema próprio",
+    "observacao": "Bauru passou ao Padrão Nacional em 01/01/2026; página antiga continua ativa.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3509502",
+    "url": "https://nfse.campinas.sp.gov.br/NotaFiscal/verificarAutenticidade.php",
+    "provedor": "ISS Digital (DSF)",
+    "observacao": "Retorna 403 a requisições automatizadas; existe também o novo portal novanfse.campinas.sp.gov.br.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3510609",
+    "url": "https://carapicuiba.giap.com.br/apex/carapi/f?p=1388:70",
+    "provedor": "GIAP",
+    "observacao": "Página inicial do portal NFS-e com bloco 'Verificação de Autenticidade'.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3513009",
+    "url": "https://nfse.cotia.sp.gov.br/ords/cotia/f?p=907:71",
+    "provedor": "Sistema próprio",
+    "observacao": "Página 'Confirmação de Autenticidade'.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3513801",
+    "url": "https://diadema.giss.com.br/consultar-autenticidade-documento-fiscal",
+    "provedor": "GISS Online",
+    "observacao": "Página de autenticidade do GISS Online (SPA; redireciona para /portal/home#/verificacao-autenticidade-nfse).",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3515004",
+    "url": "https://nfseembudasartes.obaratec.com.br/ords/embu01/f?p=935:70",
+    "provedor": "GIAP",
+    "observacao": "Página inicial com bloco 'Verificação de Autenticidade'.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3516200",
+    "url": "https://franca.siltecnologia.com.br/loginWeb.jsp?execobj=NFSENotaFiscalBuscarDireto",
+    "provedor": "SMARapd / SIL",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3518701",
+    "url": "https://guaruja.giss.com.br/consultar-autenticidade-documento-fiscal",
+    "provedor": "GISS Online",
+    "observacao": "Página de autenticidade do GISS Online (SPA; redireciona para /portal/home#/verificacao-autenticidade-nfse).",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3518800",
+    "url": "https://guarulhos.giss.com.br/consultar-autenticidade-documento-fiscal",
+    "provedor": "GISS Online",
+    "observacao": "Página de autenticidade do GISS Online (SPA; redireciona para /portal/home#/verificacao-autenticidade-nfse). Antes usava Ginfes (guarulhos.ginfes.com.br).",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3519071",
+    "url": "https://hortolandia.giss.com.br/consultar-autenticidade-documento-fiscal",
+    "provedor": "GISS Online",
+    "observacao": "Página de autenticidade do GISS Online (SPA; redireciona para /portal/home#/verificacao-autenticidade-nfse).",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3520509",
+    "url": "https://www.indaiatuba.sp.gov.br/fazenda/rendas-mobiliarias/nfse/consulta/",
+    "provedor": "Sistema próprio",
+    "observacao": "Consulta pela Chave de Verificação.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3522505",
+    "url": "https://itapevi.siltecnologia.com.br/loginWeb.jsp?execobj=NFSENotaFiscalBuscarDireto",
+    "provedor": "SMARapd / SIL",
+    "observacao": "Achado pelo padrão SIL; a página se identifica como 'Prefeitura de Itapevi'.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3523107",
+    "url": "https://itaquaquecetuba.siltecnologia.com.br/loginWeb.jsp?execobj=NFSENotaFiscalBuscarDireto",
+    "provedor": "SMARapd / SIL",
+    "observacao": "Tela 'Consultar Nota Fiscal' do sistema SIL (fornecedor confirmado em notícia de 2024).",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3524402",
+    "url": "https://siap.jacarei.sp.gov.br/pmjacarei/issonline/iss.login.php",
+    "provedor": "SIAP.Net ISS Online (Embras)",
+    "observacao": "Opção 'Validar Autenticidade da NFS-e' na página de login. Emissão local desativada em 01/01/2026 (NFS-e Nacional); consulta segue ativa.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3525904",
+    "url": "https://jundiai.giss.com.br/consultar-autenticidade-documento-fiscal",
+    "provedor": "GISS Online",
+    "observacao": "Página de autenticidade do GISS Online (SPA; redireciona para /portal/home#/verificacao-autenticidade-nfse).",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3526902",
+    "url": "https://limeira.iibrasil.com.br/login.php",
+    "provedor": "iiBrasil",
+    "observacao": "Formulário 'Autenticar NFS-e' na página inicial. Emissão exclusiva pelo Emissor Nacional desde 01/09/2026.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3529005",
+    "url": "https://marilia.sigiss.com.br/marilia/consulta/consulta.php",
+    "provedor": "SIGISS",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3529401",
+    "url": "https://maua.giss.com.br/consultar-autenticidade-documento-fiscal",
+    "provedor": "GISS Online",
+    "observacao": "Página de autenticidade do GISS Online (SPA; redireciona para /portal/home#/verificacao-autenticidade-nfse).",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3530607",
+    "url": "https://servicos.mogidascruzes.sp.gov.br/tbw/loginWeb.jsp?execobj=NFSENotaFiscalBuscarDireto",
+    "provedor": "SMARapd / SIL",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3534401",
+    "url": "https://nfe.osasco.sp.gov.br/EissnfeWebApp/portal/AutenticarNfeNfr.aspx",
+    "provedor": "Sistema próprio",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3538709",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "Decreto 20.817/2025: emissão exclusiva pelo Emissor Nacional desde 01/01/2026.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3541000",
+    "url": "https://praiagrande.giss.com.br/consultar-autenticidade-documento-fiscal",
+    "provedor": "GISS Online",
+    "observacao": "Página de autenticidade do GISS Online (SPA; redireciona para /portal/home#/verificacao-autenticidade-nfse).",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3541406",
+    "url": "https://issprudente.sp.gov.br/contrib/app/nfse/verifica_autenticidade",
+    "provedor": "Simpliss",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3543402",
+    "url": "https://www.issnetonline.com.br/ribeiraopreto/online/NotaDigital/VerificaAutenticidade.aspx",
+    "provedor": "ISSNet",
+    "observacao": "Cloudflare bloqueia curl (403).",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3543907",
+    "url": "https://rioclaro.giss.com.br/consultar-autenticidade-documento-fiscal",
+    "provedor": "GISS Online",
+    "observacao": "Página de autenticidade do GISS Online (SPA; redireciona para /portal/home#/verificacao-autenticidade-nfse).",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3545803",
+    "url": "https://santabarbara.sigissweb.com/validarnfe",
+    "provedor": "SigISS Web",
+    "observacao": "Achado pelo padrão SigISS Web (página 'Validação de Nota Fiscal eletrônica').",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3547809",
+    "url": "https://santoandre.giss.com.br/consultar-autenticidade-documento-fiscal",
+    "provedor": "GISS Online",
+    "observacao": "Página de autenticidade do GISS Online (SPA; redireciona para /portal/home#/verificacao-autenticidade-nfse).",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3548500",
+    "url": "https://santos.giss.com.br/consultar-autenticidade-documento-fiscal",
+    "provedor": "GISS Online",
+    "observacao": "Página de autenticidade do GISS Online (SPA; redireciona para /portal/home#/verificacao-autenticidade-nfse).",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3548708",
+    "url": "https://saobernardo.ginfes.com.br/",
     "provedor": "Ginfes",
+    "observacao": "Autenticidade dentro do portal Ginfes. Município aderiu ao Emissor Nacional (set/2025); notas novas: nfse.gov.br/consultapublica.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3548906",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "Emissor Nacional desde 01/01/2026 (antes IPM/Atende.net e Ginfes).",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3549805",
+    "url": "https://sjrp.giss.com.br/consultar-autenticidade-documento-fiscal",
+    "provedor": "GISS Online",
+    "observacao": "Página de autenticidade do GISS Online (SPA; redireciona para /portal/home#/verificacao-autenticidade-nfse).",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3549904",
+    "url": "https://www.nfse.gov.br/consultapublica",
+    "provedor": "Padrão Nacional",
+    "observacao": "Emissor Nacional exclusivo desde 01/07/2026; portal municipal nfse.sjc.sp.gov.br não oferece verificação pública.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3550308",
+    "url": "https://nfe.prefeitura.sp.gov.br/publico/verificacao.aspx",
+    "provedor": "Nota Paulistana",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3551009",
+    "url": "https://www.issnetonline.com.br/saovicente/online/NotaDigital/VerificaAutenticidade.aspx",
+    "provedor": "ISSNet",
+    "observacao": "Cloudflare bloqueia curl (403).",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3552205",
+    "url": "https://notafiscal.sorocaba.sp.gov.br/notafiscal/paginas/portal/#/autenticidade",
+    "provedor": "Sistema próprio",
+    "observacao": "Rota /autenticidade da SPA do portal.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3552403",
+    "url": "https://sumare.sigissweb.com/validarnfe",
+    "provedor": "SigISS Web",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3552502",
+    "url": "https://suzano.giss.com.br/consultar-autenticidade-documento-fiscal",
+    "provedor": "GISS Online",
+    "observacao": "Página de autenticidade do GISS Online (SPA; redireciona para /portal/home#/verificacao-autenticidade-nfse).",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3552809",
+    "url": "https://nfe.etransparencia.com.br/sp.taboaodaserra/nfe/principal.aspx",
+    "provedor": "e-Transparência",
+    "observacao": "Portal NFS-e com opção 'Verificar Autenticidade da nota Fiscal Eletronica'.",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "3554102",
+    "url": "https://taubateiss.meumunicipio.digital/taubateiss/consulta/consulta.php",
+    "provedor": "SIGISS",
+    "verificadoEm": "2026-10-04"
+  },
+  {
+    "ibge": "1721000",
+    "url": "https://palmasto.webiss.com.br/externo/nfse/validar",
+    "provedor": "WebISS",
+    "observacao": "Link 'validar NFS-e' na página pública do WebISS de Palmas.",
     "verificadoEm": "2026-10-04"
   }
 ]

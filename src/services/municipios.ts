@@ -13,6 +13,8 @@ export interface SiteNfse {
   url: string
   provedor?: string
   observacao?: string
+  /** Sistema municipal antigo, mantido para consultar notas emitidas antes da migração */
+  urlAnterior?: string
   /** Data (AAAA-MM-DD) da última vez que o link foi conferido */
   verificadoEm: string
 }

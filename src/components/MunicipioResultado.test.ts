@@ -28,8 +28,17 @@ describe('MunicipioResultado', () => {
     expect(wrapper.text()).toContain('Nota Carioca')
   })
 
+  it('mostra o Portal Nacional e o sistema anterior para quem migrou', () => {
+    const wrapper = montar({ ibge: '4106902', nome: 'Curitiba', uf: 'PR' })
+    const links = wrapper.findAll('a').map((a) => a.attributes('href'))
+    expect(wrapper.text()).toContain('padrão nacional')
+    expect(links).toContain(PORTAL_NACIONAL_URL)
+    expect(links).toContain('https://notacuritibana.curitiba.pr.gov.br/NotaRPS/AutenticidadeNota')
+    expect(wrapper.text()).not.toContain('Abrir site da prefeitura')
+  })
+
   it('indica o Portal Nacional quando não há link', () => {
-    const wrapper = montar({ ibge: '5300108', nome: 'Brasília', uf: 'DF' })
+    const wrapper = montar({ ibge: '0000000', nome: 'Município sem link', uf: 'XX' })
     expect(wrapper.text()).toContain('Ainda não temos')
     expect(wrapper.findAll('a').map((a) => a.attributes('href'))).toContain(PORTAL_NACIONAL_URL)
   })
